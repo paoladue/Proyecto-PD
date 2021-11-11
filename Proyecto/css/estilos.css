@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Rubik', sans-serif;
     
@@ -33,4 +34,24 @@ ul {
 background-image: url('../img/Pintura.jpg');
 background-size: cover; /*se adapta la img de acuerdo a las dimensiones de section */
 background-attachment: fixed; /*la img queda fija pero sigue */
+}
+
+ 
+ /* estilo del formulario contacto */
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+} 
+
+.form-horizontal {
+    text-align: center;
+}
+
+.mapa {
+    text-align: center;
+    padding-top: 40px;
+}
+.formulario {
+    text-align: center;
 }
