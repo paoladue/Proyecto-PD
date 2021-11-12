@@ -1,0 +1,57 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+.cabecera {
+background-color: white;
+display: flex;
+justify-content: space-between; /*para separar el texto del logo */
+padding: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none; /*quitar el subrayado, no lo quita debe ser por bootstrap*/
+}
+
+.navegacion_lista {
+display: flex;
+gap: 16px ; /*genera espacio interno entre cada elemento */
+}
+.carousel-item img {
+    height: 480px;
+    object-fit: cover;
+    
+}
+
+
+ul {
+    list-style: none; /* para quitar las viñetas */
+}
+
+.seccion1 {
+background-image: url('../img/Pintura.jpg');
+background-size: cover; /*se adapta la img de acuerdo a las dimensiones de section */
+background-attachment: fixed; /*la img queda fija pero sigue */
+}
+
+ 
+ /* estilo del formulario contacto */
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+} 
+
+.form-horizontal {
+    text-align: left;
+}
+
+.mapa {
+    width: 100%;
+    padding-top: 40px;
+}
+.formulario {
+    text-align: center;
+}
