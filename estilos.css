@@ -3,26 +3,9 @@ body{
     
 }
 
-.cabecera {
-background-color: white;
-display: flex;
-justify-content: space-between; /*para separar el texto del logo */
-padding: 16px;
-}
-
-a {
-    color: white;
-    text-decoration: none; /*quitar el subrayado, no lo quita debe ser por bootstrap*/
-}
-
-.navegacion_lista {
-display: flex;
-gap: 16px ; /*genera espacio interno entre cada elemento */
-}
 .carousel-item img {
     height: 480px;
     object-fit: cover;
-    
 }
 
 
@@ -31,7 +14,6 @@ ul {
 }
 
 .seccion1 {
-background-image: url('../img/Pintura.jpg');
 background-size: cover; /*se adapta la img de acuerdo a las dimensiones de section */
 background-attachment: fixed; /*la img queda fija pero sigue */
 }
@@ -69,4 +51,25 @@ background-attachment: fixed; /*la img queda fija pero sigue */
     color: white;
     text-decoration: none;
     font-family: sans-serif;
+}
+
+.fw-bold{ /* Titulo de las páginas  */
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #473d38;
+    font-size: 24px;
+    text-decoration: none;
+}
+/* Letras del nav  18/11/2021 */
+.nav-item{
+    font-family: blinker, sans-serif ;
+    font-size: 20px;
+    line-height: 1.6;
+   
+}
+#inicio { /*inicio 18/11/21 */
+    margin-left: 50px;
+}
+.a.nav-link {
+    color: white;
 }
