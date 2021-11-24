@@ -1,0 +1,107 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+.carousel-item img {
+   
+    object-fit: cover;
+}
+
+
+ul {
+    list-style: none; /* para quitar las viñetas */
+}
+
+.seccion1 {
+background-size: cover; /*se adapta la img de acuerdo a las dimensiones de section */
+background-attachment: fixed; /*la img queda fija pero sigue */
+}
+
+ 
+ /* estilo del formulario contacto */
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+    
+} 
+
+.form-horizontal {
+    text-align: left;
+}
+
+.mapa {
+    width: 100%;
+    padding-top: 40px;
+}
+.formulario {
+    text-align: center;
+}
+.page-footer {
+    background-color: rgba(0, 0, 0, 0.7) ;
+    color: white;
+    left: 0;
+    right: 0;
+}
+#info-blocks {
+    margin: 50px;
+} 
+
+.list-unstyled{
+    color:  white;
+}
+.navbar{
+    background-color: #337ab7;
+}
+.logo{ /* logo de la barra de navegacion */
+    color: white;
+    text-decoration: none;
+}
+
+.fw-bold{ /* Titulo de las páginas  */
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #473d38;
+    font-size: 24px;
+    text-decoration: none;
+    
+}
+/* Letras del nav  inicio prod nosotros*/
+.nav-item{
+    font-family: blinker, sans-serif ;
+    font-size: 20px;
+    line-height: 1.6;
+    width: 100%;
+   
+}
+#inicio { 
+    margin-left: 50px;
+}
+
+
+#barra_nav{
+    color: white;
+    font-family: 'Blinker', sans-serif;  
+    text-align: center;
+}
+.titulo-pag{
+    font-family: 'Blinker', sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+  text-align: center;
+}
+
+#footer_rrss{
+    text-align: left;
+    
+}
+.redes{
+    text-decoration: none; /*quitar el subrayado */
+    color: white;
+}
+#historia{
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
